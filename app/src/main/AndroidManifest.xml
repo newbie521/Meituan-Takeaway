@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.order">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.ShopActivity"
+            android:exported="true"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.FoodActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ActivityDialogStyle"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.ShopDetailActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".activity.OrderActivity"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>
